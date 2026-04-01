@@ -1,51 +1,5 @@
-/* Self-host licensed .woff2 files as exported (e.g. from P22 / Adobe); names below match common P22 Mackinac Pro exports */
-@font-face {
-  font-family: 'P22 Mackinac';
-  src:
-    local('P22 Mackinac Pro Book'),
-    local('P22 Mackinac Pro'),
-    url('/fonts/P22MackinacPro-Book.woff2') format('woff2'),
-    url('/fonts/P22Mackinac-Book.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'P22 Mackinac';
-  src:
-    local('P22 Mackinac Pro Book Italic'),
-    url('/fonts/P22MackinacPro-BookItalic.woff2') format('woff2'),
-    url('/fonts/P22Mackinac-BookItalic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'P22 Mackinac';
-  src:
-    local('P22 Mackinac Pro Medium'),
-    url('/fonts/P22MackinacPro-Medium.woff2') format('woff2'),
-    url('/fonts/P22Mackinac-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'P22 Mackinac';
-  src:
-    local('P22 Mackinac Pro Bold'),
-    url('/fonts/P22MackinacPro-Bold.woff2') format('woff2'),
-    url('/fonts/P22Mackinac-Bold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
-  --font-sans: 'P22 Mackinac', 'Source Serif 4', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 
   --text: #0f172a;
   --text-muted: rgba(15, 23, 42, 0.72);
@@ -59,7 +13,7 @@
   --accent-focus: rgba(13, 92, 99, 0.35);
   --surface-elevated: rgba(255, 255, 255, 0.72);
 
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 1.55;
